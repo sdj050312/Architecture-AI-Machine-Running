@@ -69,7 +69,7 @@ for j in range(k):
     # 종료점 표시
     plt.scatter(traj[-1, 0], traj[-1, 1], c='yellow', marker='*', s=200, edgecolors='black', zorder=5)
 
-plt.title('K-means: Random Coordinate Initialization', fontsize=14)
+plt.title('Concrete Example of K-means Clustering', fontsize=14)
 plt.legend()
 plt.grid(True, linestyle='--')
 plt.show()

@@ -1,6 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
-
+# 수업 2주차임 클러스터를 이용해서 데이터를 랜덤으로 찍어보고, 선형그래프를 만들어서 데이터를 제작하는 작업
 #함수 만들기 
 def kmeans_with_random_init(X, k, max_iters=100):
     # 데이터의 각 차원별 최소/최대값을 구해 범위를 설정합니다.

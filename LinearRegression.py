@@ -9,6 +9,15 @@ X = np.array([[1], [2], [3], [4], [5]])
 #y는 결과 시험점수 
 Y = np.array([55, 65, 75, 84, 95])
 
+def classification (x, y): 
+    if (x < 4):
+        return ;    
+    else: 
+        return "높음"
+
+print(classification(2, 65))
+
+
 # 모델 생성 
 model = LinearRegression()
 
@@ -20,4 +29,9 @@ predicted_score = model.predict([[6]])
 print("예측점수:", predicted_score[0])
 
 
-# 
+# 터미널 노드 데이터를 저장하는 최소단위 
+# 터미널이라는 끝이라는 뜻이고, none 터미널 노드, 어떠한 노드보다 위에 있다, 그러면 
+# parant node 
+# child node 
+# terminal node
+# split node 데이터를 구분하기 위한 함수 if (x1 < 1, y= 1, y= 2)

@@ -23,7 +23,7 @@ chars = sorted(list(set(text_data))) # 중복된 글자를 없애고 순서대�
 vocab = ['<PAD>', '<SOS>', '<EOS>'] + chars 
 vocab_size = len(vocab) # 단어 사전의 총 크기(글자 종류의 수)를 기억해둡니다.
 
-# 6. 글자를 숫자(인덱스)로, 숫자를 다시 글자로 바꿔주는 딕셔너리를 만듭니다.
+# 6. 글자를 숫자(인덱스)로, 숫자를 다시 글자로 바꿔주는 딕셔너리를 만듭니
 char_to_idx = {char: idx for idx, char in enumerate(vocab)}
 idx_to_char = {idx: char for idx, char in enumerate(vocab)}
 
